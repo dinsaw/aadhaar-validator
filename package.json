@@ -1,0 +1,23 @@
+{
+  "name": "aadhaar-validator",
+  "version": "1.0.0",
+  "description": "Validates Aadhaar Number",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinsaw/aadhaar-validator.git"
+  },
+  "keywords": [
+    "aadhaar",
+    "uidai"
+  ],
+  "author": "Dinesh Sawant <dineshsawant300@gmail.com> (http://dineshsawant.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dinsaw/aadhaar-validator/issues"
+  },
+  "homepage": "https://github.com/dinsaw/aadhaar-validator#readme"
+}
