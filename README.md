@@ -23,3 +23,9 @@ validator.isValidNumber('123412341234')
 validator.isValidNumber('123412341235') 
 //returns false
 ```
+
+Test
+-------------------
+```bash
+npm test
+```
