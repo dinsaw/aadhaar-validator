@@ -56,7 +56,7 @@ function invArray(array) {
   
   
 module.exports = {
-    validateNumber: function (aadhaar_no) {
+    isValidNumber: function (aadhaar_no) {
       if (aadhaar_no.length != 12) {
         return false;
       }
