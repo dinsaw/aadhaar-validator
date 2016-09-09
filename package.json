@@ -4,7 +4,7 @@
   "description": "Validates Aadhaar Number",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js -w"
+    "test": "mocha src/index.test.js"
   },
   "repository": {
     "type": "git",
