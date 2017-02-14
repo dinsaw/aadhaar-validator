@@ -4,8 +4,8 @@
 
 [![NPM Downloads][downloads-image]][downloads-url]
 
-This library checks whether a given number is valid aadhaar number which is given by Government of India. 
-This is not Aadhaar check. This library computes whether a given number confirms criteria specified by UIDAI.
+This library checks whether a given number is valid aadhaar number, following the structure which is given by Government of India.
+This is not Aadhaar check. This library computes whether a given number confirms criteria specified by UIDAI. The aadhaar number validated by this library, may or may not have been issued to real person as theoritically 8000 Crore (80 Billion) UIDs are possible where as Indian population is little over 100 Crores(1 Billion).
 
 
 For more information:
@@ -22,9 +22,9 @@ Use
 ------------------
 ```node
 var validator = require('aadhaar-validator')
-validator.isValidNumber('123412341234') 
+validator.isValidNumber('123412341234')
 //returns true
-validator.isValidNumber('123412341235') 
+validator.isValidNumber('123412341235')
 //returns false
 ```
 
