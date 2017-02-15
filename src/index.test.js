@@ -19,7 +19,7 @@ describe('aadhaar-validator', function() {
   });
 
   it('should return false when checksum condition matches but length of number is not 12.', function() {
-    var result = validator.isValidNumber("1234123412347");
+    var result = validator.isValidNumber("2345234523436");
     expect(result).to.be.false;
   });
 
