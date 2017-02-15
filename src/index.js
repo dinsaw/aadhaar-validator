@@ -34,32 +34,27 @@ function validate(array) {
     for (var i = 0; i < invertedArray.length; i++) {
       c = d[c][p[(i % 8)][invertedArray[i]]];
     }
-  
     return (c === 0);
   }
 }
 
 // converts string or number to an array and inverts it
 function invArray(array) {
-
   if (Object.prototype.toString.call(array) === "[object Number]") {
-      array = String(array);
+    array = String(array);
   }
 
   if (Object.prototype.toString.call(array) === "[object String]") {
-      array = array.split("").map(Number);
+    array = array.split("").map(Number);
   }
-
   return array.reverse();
-
 }
-  
-  
+
 module.exports = {
-    isValidNumber: function (aadhaar_no) {
-      if (aadhaar_no.length != 12) {
-        return false;
-      }
-      return validate(aadhaar_no);
-    } 
+  isValidNumber: function (aadhaar_no) {
+    if (aadhaar_no.length != 12 || aadhaar_no.startsWith('0') || aadhaar_no.startsWith('1')) {
+      return false;
+    }
+    return validate(aadhaar_no);
+  }
 };
