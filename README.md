@@ -23,9 +23,12 @@ Use
 ```node
 var validator = require('aadhaar-validator')
 validator.isValidNumber('123412341234')
-//returns true
+//returns false
 validator.isValidNumber('123412341235')
 //returns false
+validator.isValidNumber('234123412346')
+//returns true
+
 ```
 
 Test
