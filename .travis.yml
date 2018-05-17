@@ -4,8 +4,3 @@ node_js:
   - "6.1"
   - "5.11"
   - "4.5"
-script:
-  - npm run test-single
-  - npm run check-coverage
-after_success:
-  - npm run report-coverage
