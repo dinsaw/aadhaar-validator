@@ -1,4 +1,4 @@
-#aadhaar-validator
+# aadhaar-validator
 
 [![Build Status](https://travis-ci.org/dinsaw/aadhaar-validator.svg?branch=master)](https://travis-ci.org/dinsaw/aadhaar-validator)
 
