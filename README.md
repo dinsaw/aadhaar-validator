@@ -28,6 +28,15 @@ validator.isValidNumber('123412341235')
 //returns false
 validator.isValidNumber('234123412346')
 //returns true
+//VID Tests
+validator.isValidVID('2345234523436129')
+//returns true
+validator.isValidVID('2345234523436123')
+//returns false
+validator.isValidVID('2345234523436')
+//returns false
+
+
 
 ```
 
