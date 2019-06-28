@@ -56,5 +56,11 @@ module.exports = {
       return false;
     }
     return validate(aadhaar_no);
+  },
+  isValidVID: function (aadhaar_vid_no) {
+    if (aadhaar_vid_no.length != 16) {
+      return false;
+    }
+    return validate(aadhaar_vid_no);
   }
 };

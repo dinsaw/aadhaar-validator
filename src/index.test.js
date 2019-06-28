@@ -23,4 +23,19 @@ describe('aadhaar-validator', function() {
     expect(result).to.be.false;
   });
 
+  //VID Tests
+  it('should return false when checksum condition matches but length of number is not 16 for a VID.', function() {
+    var result = validator.isValidVID("2345234523436");
+    expect(result).to.be.false;
+  });
+
+  it('should return false when checksum condition does not match but length of VID is 16.', function() {
+    var result = validator.isValidVID("2345234523436123");
+    expect(result).to.be.false;
+  });
+
+    it('should return true when checksum condition matches and length of VID is 16.', function() {
+    var result = validator.isValidVID("2345234523436129");
+    expect(result).to.be.true;
+  });
 });
