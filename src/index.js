@@ -23,6 +23,18 @@ var p = [
   [7, 0, 4, 6, 9, 1, 3, 2, 5, 8]
 ];
 
+// converts string or number to an array and inverts it
+function invArray(array) {
+  if (Object.prototype.toString.call(array) === "[object Number]") {
+    array = String(array);
+  }
+
+  if (Object.prototype.toString.call(array) === "[object String]") {
+    array = array.split("").map(Number);
+  }
+  return array.reverse();
+}
+
 // validates checksum
 function validate(array) {
   var c = 0;
@@ -36,18 +48,6 @@ function validate(array) {
     }
     return (c === 0);
   }
-}
-
-// converts string or number to an array and inverts it
-function invArray(array) {
-  if (Object.prototype.toString.call(array) === "[object Number]") {
-    array = String(array);
-  }
-
-  if (Object.prototype.toString.call(array) === "[object String]") {
-    array = array.split("").map(Number);
-  }
-  return array.reverse();
 }
 
 module.exports = {
