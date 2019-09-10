@@ -13,6 +13,7 @@ References:
 - [https://www.npci.org.in/sites/default/files/circular/Circular_No_9.pdf](https://www.npci.org.in/sites/default/files/circular/Circular_No_9.pdf)
 - [Verhoeff Algorithm](https://en.wikipedia.org/wiki/Verhoeff_algorithm)
 - [Aadhaar VID Circular](https://uidai.gov.in/images/resource/UIDAI_Circular_11012018.pdf)
+- [UID Numbering Scheme](https://archive.org/details/Aadhaar_numbering_scheme/)
 
 Installation
 ------------------

@@ -12,6 +12,11 @@ describe('isValidNumber', function() {
     expect(result).to.be.false;
   });
 
+  it('should return false when non numeric input is passed', function() {
+    var result = validator.isValidNumber("5SR150341233");
+    expect(result).to.be.false;
+  });
+
   it('should return true when last 1 digit is checksum of first 11 digits for non-0,non-1 first digit', function() {
     var result = validator.isValidNumber("234523452343");
     expect(result).to.be.true;

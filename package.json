@@ -4,7 +4,8 @@
   "description": "Validates Aadhaar Number",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js"
+    "test": "mocha src/index.test.js",
+    "coverage": "nyc mocha src/index.test.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/dinsaw/aadhaar-validator#readme",
   "devDependencies": {
     "chai": "4.2.0",
-    "mocha": "6.1.4"
+    "mocha": "6.1.4",
+    "nyc": "^14.1.1"
   }
 }
