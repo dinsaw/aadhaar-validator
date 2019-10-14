@@ -1,10 +1,6 @@
 # aadhaar-validator
 
-[![Build Status](https://travis-ci.org/dinsaw/aadhaar-validator.svg?branch=master)](https://travis-ci.org/dinsaw/aadhaar-validator)
-
-[![codecov](https://codecov.io/gh/dinsaw/aadhaar-validator/branch/master/graph/badge.svg)](https://codecov.io/gh/dinsaw/aadhaar-validator)
-
-[![NPM Downloads][downloads-image]][downloads-url]
+[![Build Status](https://travis-ci.org/dinsaw/aadhaar-validator.svg?branch=master)](https://travis-ci.org/dinsaw/aadhaar-validator) [![codecov](https://codecov.io/gh/dinsaw/aadhaar-validator/branch/master/graph/badge.svg)](https://codecov.io/gh/dinsaw/aadhaar-validator) [![NPM Downloads][downloads-image]][downloads-url]
 
 This library checks whether a given number is valid Aadhaar number or Aadhaar Virtual ID, following the structure which is given by Government of India.
 
