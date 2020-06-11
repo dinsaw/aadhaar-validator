@@ -4,7 +4,7 @@
 
 This library checks whether a given number is valid Aadhaar number or Aadhaar Virtual ID, following the structure which is given by Government of India.
 
-This is not Aadhaar check. This library computes whether a given number confirms criteria specified by UIDAI. The aadhaar number validated by this library, may or may not have been issued to real person as theoritically 8000 Crore (80 Billion) UIDs are possible where as Indian population is little over 100 Crores(1 Billion).
+This is not Aadhaar check. This library computes whether a given number confirms criteria specified by UIDAI. The aadhaar number validated by this library, may or may not have been issued to real person as theoretically 8000 Crore (80 Billion) UIDs are possible where as Indian population is little over 100 Crores(1 Billion).
 
 
 References:
